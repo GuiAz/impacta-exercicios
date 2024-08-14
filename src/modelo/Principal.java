@@ -32,12 +32,15 @@ public class Principal {
 		meuCarro2.setPlaca("DEF5678");
 		
 		//Impressao dos atrubuidos juntos
-		System.out.println("Marca: " + meuCarro2.getMarca() + "," + "\nModelo: " + meuCarro2.getModelo() +
+		System.out.println("\nMarca: " + meuCarro2.getMarca() + "," + "Modelo: " + meuCarro2.getModelo() +
 				", Ano: " + meuCarro2.getAno() + ", Cor: " + meuCarro2.getCor() + ", Preco: " +
 				 meuCarro2.getPreco()	+ ", Combustivel: " + meuCarro2.getTipoCombustivel() +
 				 ", Portas: " + meuCarro2.getNumeroPortas() + ", Ar Condicionado: " + 
 				 meuCarro2.isArCondicionado() + ", Quilometragem: " + meuCarro2.getQuilometragem() +
 				 ", Placa: " + meuCarro2.getPlaca());
+		
+		System.out.println("\nInformacoes Projeto");
+		System.out.println(meuCarro2.informacoesProjeto());
 	}
 		
 		

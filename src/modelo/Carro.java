@@ -93,5 +93,11 @@ public class Carro {
 	public void setPlaca(String placa) {
 		this.placa = placa;
 	}
+	
+	public String informacoesProjeto() {
+		return String.format("Carro [Marca = %s, Modelo = %s, Ano = %d, Cor = %s, Preço = %.2f, Tipo de Combustível = %s, Ar Condicionado = %b, Portas = %d, Quilomentragem = %s, Placa = %s]",
+                marca, modelo, ano, cor, preco, tipoCombustivel, arCondicionado, numeroPortas, quilometragem, placa);
+
+	}
 
 }
