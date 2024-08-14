@@ -1,6 +1,7 @@
 package modelo;
-
+//Classe Carro represente um carro com 10 atributos.
 public class Carro {
+	//Atributos privados
 	private String marca;
 	private String modelo;
 	private int ano;
@@ -12,7 +13,7 @@ public class Carro {
 	private double quilometragem;
 	private String placa;
 	
-	//Construtor Full
+	//Construtor Completo
 	public Carro(String marca, String modelo, int ano, String cor, double preco, String tipoCombustivel,
 			int numeroPortas, boolean arCondicionado, double quilometragem, String placa) {
 		this.marca = marca;
